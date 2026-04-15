@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProductMockup from './components/ProductMockup';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import CtaSection from './components/CtaSection';
+import PaymentSuccess from './components/PaymentSuccess';
+import SignUpSuccess from './components/SignUpSuccess';
+import ResetPassword from './components/ResetPassword';
+import SecretResetPassword from './components/SecretResetPassword';
 
-function App() {
+function Home() {
   return (
     <div className="app-container" style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
       {/* Background ambient glows */}
@@ -30,6 +35,20 @@ function App() {
         <p>&copy; {new Date().getFullYear()} Lumina. All rights reserved.</p>
       </footer>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/payment-success" element={<PaymentSuccess />} />
+        <Route path="/signup-success" element={<SignUpSuccess />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/secret-reset-password" element={<SecretResetPassword />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
