@@ -3,8 +3,8 @@ import { createClient } from '@supabase/supabase-js';
 import { Lock, Mail, ArrowRight, CheckCircle, KeyRound, Loader2, AlertCircle, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const SUPABASE_URL = 'https://gsvccxhdgcshiwgjvgfi.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzdmNjeGhkZ2NzaGl3Z2p2Z2ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjczOTY2NTIsImV4cCI6MjA4Mjk3MjY1Mn0.Sbb6YJjlQ_ig2LCcs9zz_Be1kU-iIHBx4Vu4nzCPyTM';
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 type ViewState = 'loading' | 'request_link' | 'reset_password' | 'success_link_sent' | 'success_password_reset';
