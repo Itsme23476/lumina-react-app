@@ -132,7 +132,7 @@ const CtaSection: React.FC = () => {
 
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', marginBottom: '24px' }}>
             <motion.a
-              href="https://github.com/Itsme23476/App-interface/releases/download/V.3.3/Lumina-Setup-v3.3.exe"
+              href="https://github.com/Itsme23476/App-interface/releases/download/V.9/Lumina.exe"
               whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(176,102,255,0.6)' }}
               whileTap={{ scale: 0.97 }}
               style={{
