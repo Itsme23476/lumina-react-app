@@ -33,6 +33,7 @@ const DOTS = [
 const CtaSection: React.FC = () => {
   return (
     <section
+      id="download"
       style={{
         position: 'relative',
         width: '100vw',

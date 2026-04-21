@@ -34,7 +34,7 @@ const Header: React.FC = () => {
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
         </button>
-        <button className="button-primary" style={{ padding: '8px 20px', borderRadius: '6px', fontSize: '0.9rem' }}>Get Started</button>
+        <a href="#download" className="button-primary" style={{ padding: '8px 20px', borderRadius: '6px', fontSize: '0.9rem', textDecoration: 'none', display: 'inline-block' }}>Get Started</a>
       </div>
     </header>
   );
