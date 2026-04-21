@@ -130,7 +130,7 @@ export default function PaymentSuccess() {
           marginBottom: '32px',
         }}>
           Your payment has been processed successfully. 
-          You can now close this tab and return to the Lumina app to enjoy all premium features.
+          You can now close this tab and return to the Filect app to enjoy all premium features.
         </p>
 
         <div style={{
@@ -195,7 +195,7 @@ export default function PaymentSuccess() {
           fontSize: '13px',
           marginTop: '12px',
         }}>
-          Questions? Contact us at <span style={{ color: 'var(--primary)' }}>support@lumina.ai</span>
+          Questions? Contact us at <span style={{ color: 'var(--primary)' }}>support@filect.io</span>
         </p>
       </div>
 
