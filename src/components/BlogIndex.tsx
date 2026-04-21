@@ -6,26 +6,26 @@ import Header from './Header';
 const ARTICLES = [
   {
     id: 'how-to-organize-files-with-ai',
-    title: 'How to Organize Your Files with AI',
-    excerpt: 'Is your desktop a mess? Learn how modern AI tools can automatically search, tag, and organize thousands of files without you lifting a finger.',
+    title: 'How to Organize Files with AI in 2026 (Complete Guide)',
+    excerpt: 'AI file organization can reduce search time from minutes to under three seconds — without sorting a single folder. Here\'s exactly how it works, what file types it handles, and how to switch today.',
     date: 'Oct 24, 2026',
-    readTime: '4 min read',
+    readTime: '8 min read',
     category: 'Productivity',
   },
   {
     id: 'why-traditional-file-search-is-broken',
-    title: 'Why Traditional File Search is Broken',
-    excerpt: 'We have powerful computers, yet finding a specific document still feels like the 90s. Here is why the old folder metaphor fails us.',
+    title: 'Why File Search on Windows and Mac Is Broken — And How to Fix It',
+    excerpt: 'Windows Search and macOS Spotlight haven\'t fundamentally changed in 20 years. Here\'s a technical breakdown of why they fail, what a good file search tool must do, and which alternative actually works.',
     date: 'Oct 18, 2026',
-    readTime: '6 min read',
+    readTime: '7 min read',
     category: 'Product',
   },
   {
     id: 'future-of-local-ai',
-    title: 'The Future of Local AI on Your Machine',
-    excerpt: 'Everything runs better when it runs locally. Discover how privacy-first AI is changing the way we interact with personal operating systems.',
+    title: 'Local AI on Your Desktop: What It Is, Why It Matters, and What\'s Coming Next',
+    excerpt: 'Local AI — running on your device, no cloud — is finally practical in 2026. Here\'s why it matters for privacy, what hardware you need, and which use cases it already beats cloud AI for.',
     date: 'Oct 10, 2026',
-    readTime: '5 min read',
+    readTime: '8 min read',
     category: 'Engineering',
   }
 ];
