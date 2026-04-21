@@ -5,7 +5,7 @@ const Features: React.FC = () => {
   const cards = [
     {
       title: "Natural Language",
-      description: "Don't remember the filename? Just describe what's inside. Filect understands context.",
+      description: "Don't remember the exact filename? AI file search lets you just describe what's inside. Filect understands context.",
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--purple-light)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="11" cy="11" r="8"></circle>
@@ -89,7 +89,7 @@ const Features: React.FC = () => {
           Designed for flow.
         </h2>
         <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto', lineHeight: 1.6 }}>
-          Traditional file explorers are broken. Filect fixes them by letting you search the way you think.
+          Traditional file explorers are broken. Filect fixes them by acting as your personal AI file manager, letting you find files instantly the way you think.
         </p>
       </motion.div>
 

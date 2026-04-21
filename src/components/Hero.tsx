@@ -26,15 +26,16 @@ const Hero: React.FC = () => {
           </span>
         </div>
         
-        <h1 style={{ 
+        <h1 className="sr-only">AI-Powered File Search & Organization</h1>
+        <div style={{ 
           fontSize: '4.5rem', 
           fontWeight: 800, 
           lineHeight: 1.1,
           letterSpacing: '-0.03em'
-        }}>
+        }} role="heading" aria-level={2}>
           Find any file.<br />
           <span className="text-gradient">Instantly.</span>
-        </h1>
+        </div>
         
         <p style={{ 
           fontSize: '1.25rem', 
@@ -42,7 +43,7 @@ const Hero: React.FC = () => {
           lineHeight: 1.6,
           maxWidth: '480px'
         }}>
-          Search your entire computer using natural language. No folders. No guessing. Just results.
+          The smartest AI file manager. Search your entire computer using natural language to find and organize files with AI. No folders. No guessing. Just results.
         </p>
         
         <div style={{ display: 'flex', gap: '16px', marginTop: '16px', flexWrap: 'nowrap' }}>
