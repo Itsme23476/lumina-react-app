@@ -103,3 +103,38 @@ body {
   pointer-events: none;
   z-index: -1;
 }
+
+/* Blog article typography */
+.blog-content p {
+  margin-bottom: 1.4em;
+}
+
+.blog-content h2 {
+  margin-top: 2em;
+}
+
+.blog-content h3 {
+  margin-top: 1.5em;
+}
+
+.blog-content strong {
+  color: #ffffff;
+}
+
+/* Screen-reader only (SEO hidden H1) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

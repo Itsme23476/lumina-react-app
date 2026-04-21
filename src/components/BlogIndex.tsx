@@ -81,7 +81,7 @@ const BlogIndex: React.FC = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Link
-                  to={`#`} // Note: Update with `/blog/${article.id}` once individual posts are built
+                  to={`/blog/${article.id}`}
                   style={{
                     display: 'block',
                     padding: '32px',
